@@ -27,4 +27,4 @@ while (opcion != 0)
     Console.WriteLine("\nDesea realizar otra operacion? 1-SI 0-NO");
     int.TryParse(Console.ReadLine(), out opcion);
 }
-Console.WriteLine("\nResultado: " + dato.Resultado);
+Console.WriteLine("\nEl Resultado es: " + dato.Resultado);
